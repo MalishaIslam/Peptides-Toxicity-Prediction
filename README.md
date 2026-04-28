@@ -1,6 +1,6 @@
 # File Description :
 
-toxicity_prediction_pipeline.ipynb → Main machine learning workflow \
+toxicity_prediction_pipeline.ipynb → Main machine learning workflow 
 
 Peptide_Property_Calculation_by_R.ipynb → Peptide feature extraction using R
 
@@ -26,7 +26,7 @@ Total peptide sequences: 3864 \
 Balanced dataset (toxin vs non-toxin) \
 Input format: FASTA \
 Converted to CSV for analysis \
-Extracted 438 physicochemical features from peptide sequences \
+Extracted 438 physicochemical features from peptide sequences 
 
 ## Methodology
 
@@ -41,18 +41,18 @@ Compare ensemble performance with individual classifiers \
 
 ## Results
 
-Best performance achieved using Super Learner Ensemble Model \
+Best performance achieved using Super Learner Ensemble Model 
 
 Accuracy: 91.55% \
-Matthews Correlation Coefficient (MCC): 0.83 \
+Matthews Correlation Coefficient (MCC): 0.83 
 
-The ensemble model performed better than the individual XGBoost classifier for toxicity prediction. \
+The ensemble model performed better than the individual XGBoost classifier for toxicity prediction. 
 
 
 ## Tools and Technologies
 
-Python \ 
-R \ 
+Python \
+R \
 Scikit-learn \
 XGBoost \
 Super Learner Ensemble \
